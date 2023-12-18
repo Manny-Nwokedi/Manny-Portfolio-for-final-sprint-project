@@ -1,0 +1,161 @@
+
+/* Resetting default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting default background color */
+body {
+  background-color: white;
+  color: white; /* Set default text color */
+}
+
+/* Your existing styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  justify-content: center;
+  color: azure;
+}
+
+.navbar li {
+  margin: 0 10px;
+  color: white;
+  display: inline;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+  color: white; /* Set section text color */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: lightblue;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.navbar a {
+  color: white;
+}
+
+.profile-image {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.vertical-image {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.profile-image {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  margin-bottom: 20px;
+}
+
+
+.background {
+  background-image: url("Software Background Image 2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Add a style for the resized-image class */
+.resized-image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default spacing */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+
+/* ... (previous styles) ... */
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+  color: white; /* Set section text color */
+}
+
+/* Increase the font size for h2 */
+.section h2 {
+  font-size: 24px; /* Adjust the font size to your preference */
+}
+
+.navbar a,
+.section a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style specifically for LinkedIn and GitHub links */
+.section a[href*="linkedin.com"],
+.section a[href*="github.com"] {
+  color: white;
+  /* Add any specific styles for these links */
+}
+
+/* Extra colors for LinkedIn and GitHub links */
+#linkedin:hover {
+  color: red;
+}
+
+#github:hover {
+  color: red;
+}
